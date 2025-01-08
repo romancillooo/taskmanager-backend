@@ -4,12 +4,13 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using TodoListApi.Data;
 using Microsoft.OpenApi.Models;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configurar DbContext
 builder.Services.AddDbContext<TodoListDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configurar CORS
 builder.Services.AddCors(options =>

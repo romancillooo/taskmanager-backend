@@ -167,3 +167,6 @@ C:\dotnet\TodoListApi\TodoListApi\obj\Debug\net8.0\refint\TodoListApi.dll
 C:\dotnet\TodoListApi\TodoListApi\obj\Debug\net8.0\TodoListApi.pdb
 C:\dotnet\TodoListApi\TodoListApi\obj\Debug\net8.0\TodoListApi.genruntimeconfig.cache
 C:\dotnet\TodoListApi\TodoListApi\obj\Debug\net8.0\ref\TodoListApi.dll
+C:\dotnet\TodoListApi\TodoListApi\obj\Debug\net8.0\TodoListApi.sourcelink.json
+C:\dotnet\TodoListApi\TodoListApi\bin\Debug\net8.0\Npgsql.dll
+C:\dotnet\TodoListApi\TodoListApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
